@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	background-color: #9a9a9a;
+	background-image: url('../imgs/balao.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#container{
+	width: 100%;
+}
+#container h1{
+	padding-top: 30px;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	color: rgb(215, 216, 218);
+}
+
+#quadrado{
+	width: 60%;
+	height: 350px;
+	background-color: rgb(46, 45 ,51);
+	margin: 50px auto 0 auto;
+	border: 5px solid rgb(215, 216, 218);
+	border-radius: 25px;
+}
+
+#quadrado h2{
+	color: rgb(215, 216, 218);
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	padding-top: 20px;
+}
+
+/*Formulario: */
+#dados{
+	margin-left: 20%;
+	margin-top: 20px;
+	font-family: 'Roboto Mono', monospace;
+	color: rgb(215, 216, 218);
+}
+#dados input{
+	width: 80%;
+	height: 30px;
+	font-size: 22px;
+	font-family: Arial;
+}
+
+#dados input[type=submit]{
+	margin-top: 15px;
+	background-color: rgb(215, 216, 218);
+	color: rgb(46, 45 ,51);
+	font-family: 'Roboto Mono', monospace;
+	height: 50px;
+	border: 3px solid black;
+	border-radius: 25px;
+	font-weight: bold;
+}
+
+#dados h3{
+	margin-bottom: 15px;
+}

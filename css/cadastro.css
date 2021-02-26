@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	background-image: url('../imgs/balao.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#container{
+	width: 100%;
+}
+
+#titulo{
+	color: rgb(215, 216, 218);
+	font-family: 'Roboto Mono', monospace;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 28px;
+}
+
+#grade{
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	margin-top: 50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 5px solid white;
+	border-radius: 25px;
+}
+#caixa{
+	display: flex;
+	width: 100%;
+}
+
+#um{
+	width: 60%;
+	order: 1;
+}
+
+#dois{
+	width: 40%;
+	order: 2;
+	padding-left: 3%;
+}
+
+#info{
+	text-align: center;
+	color: rgb(215, 216, 218);
+	font-family: 'Roboto Mono', monospace;
+	padding-top: 10px;
+}
+
+#grade h4{
+	color: rgb(215, 216, 218);
+	font-family: 'Roboto Mono', monospace;
+	padding-top: 20px;
+	margin-left: 25px;
+}
+
+#grade input[type=text]{
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+/*Fomatação tamanho dos inputs: */
+
+#nome{
+	width: 60%;
+}
+
+#rua{
+	width: 100%;
+}
+
+#num{
+	width: 30%;
+
+}
+
+#complemento{
+	width: 60%;
+}
+
+#cod{
+	width: 50px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+#endereco{
+	display: inline-block;
+	position: relative;
+
+}
+
+/*Formatação caixa-2: */
+
+#caixa-2{
+	display: flex;
+	width: 100%;
+	padding-right: 15px;
+}
+
+#tres{
+	width: 40%;
+	order: 1;
+}
+#cidade{
+	width: 90%;
+}
+
+#quatro{
+	width: 30%;
+	order: 2;
+}
+
+#bairro{
+	width: 90%;
+}
+
+#cinco{
+	width: 30%;
+	order: 3;
+}
+
+#estado{
+	width: 80%;
+}
+
+#seis{
+	order: 1;
+	width: 50%;
+}
+
+#cpf{
+	width: 90%;
+}
+
+#sete{
+	width: 50%;
+	order: 2;
+}
+
+#rg{
+	width: 90%;
+}
+
+#oito{
+	order: 1;
+	width: 50%;
+}
+
+#nove{
+	order: 2;
+	width: 50%;
+}
+
+#salvar{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 50px;
+	height: 50px;
+	border: 5px solid black;
+	background-color: rgb(215, 216, 218);
+	font-family: 'Roboto Mono', monospace;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 25px;
+}
+
+#meu_nome{
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(215, 216, 218);
+	margin-top: 25px; 
+}
+
+#pesquisa{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 50px;
+	background-color: rgb(215, 216, 218);
+	font-family: 'Roboto Mono', monospace;
+	font-size: 22px;
+	font-weight: bold;
+	border: 3px solid white;
+}
+
+#pesquisa a{
+	color: black;
+	text-decoration: none;
+}
+
+
+

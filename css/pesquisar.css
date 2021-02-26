@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	background-image: url('../imgs/balao.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#container{
+	width: 100%;
+}
+
+#titulo{
+	color: rgb(215, 216, 218);
+	font-family: 'Roboto Mono', monospace;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 28px;
+}
+
+#titulo-1{
+	color: rgb(215, 216, 218);
+	font-family: 'Roboto Mono', monospace;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+
+#cadastrar{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 50px;
+	background-color: rgb(215, 216, 218);
+	font-family: 'Roboto Mono', monospace;
+	font-size: 22px;
+	font-weight: bold;
+	border: 3px solid white;
+}
+
+#cadastrar a{
+	color: black;
+	text-decoration: none;
+}
+
+#grade{
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	margin-top: 50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 5px solid white;
+	border-radius: 25px;
+}
+
+#info{
+	text-align: center;
+	color: rgb(215, 216, 218);
+	font-family: 'Roboto Mono', monospace;
+	padding-top: 10px;
+}
+
+#procurar{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 30px;
+	height: 30px;
+	font-size: 22px;
+	font-family: Arial;
+}
+
+#btn_pesquisa{
+	width: 80%;
+	margin-top: 30px;
+	font-size: 22px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 15px;
+}
+
+#meu_nome{
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(215, 216, 218);
+	margin-top: 25px; 
+}
+
+#opcoes{
+	width: 100%;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(215, 216, 218);
+	text-align: center;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
