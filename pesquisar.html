@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro - Entre com os dados abaixo</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/pesquisar.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		
+		<h1 id="titulo">Sistema Cad</h1>
+
+		<button id="cadastrar"><a href="cadastro.html">Cadastrar</a></button>
+
+		<form action="pesquisar.php" method="POST">
+
+			<div id="grade">
+				<h2 id="info">Escolha a opção de pesquisa</h2>
+
+				<input id="procurar" type="text" name="pesquisa" required="required">
+
+				<div id="opcoes">
+						<label class="container">CPF
+			  				<input type="radio" name="escolha" value="cpf">
+						</label>
+
+						<label class="container">RG
+			  				<input type="radio" name="escolha" value="rg">
+						</label>
+
+						<label class="container">Nome
+			  				<input type="radio" name="escolha" value="nome">
+						</label>
+
+						<input id="btn_pesquisa" type="submit" name="buscar" value="PESQUISAR">
+				</div>			
+
+				<h5 id="meu_nome">&copy; Luiz Eduardo de Lima</h5>
+
+			</div>
+		</form>
+	</div>
+
+	<!--Chamando o arquivo jquery-->
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+	<script type="text/javascript">
+		
+		var data = new Date();
+
+		var dia = data.getDate();
+		var mes = data.getMonth();
+		var ano4 = data.getFullYear();
+
+		var formatando_data = dia + '/' + (mes + 1) + '/' + ano4;
+
+		var elemento = $('#titulo');
+
+		elemento.html('<h3>' + 'Sistema Cad - ' + formatando_data + '</h3>');
+		
+	</script>
+</body>
+</html>

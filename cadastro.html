@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro - Entre com os dados abaixo</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/cadastro.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		
+		<h1 id="titulo">Sistema Cad</h1>
+
+		<button id="pesquisa"><a href="pesquisar.html">Pesquisar</a></button>
+
+		<div id="grade">
+			<h2 id="info">Entre com os dados a seguir</h2>
+
+			<form action="inserir_dados.php" method="POST">
+
+				<h4>Nome Completo*</h4>
+				<input id="nome" type="text" name="nome-bd" required="required">
+
+				<div id="caixa">
+					<div id="um">
+						<h4>Endereço*</h4>
+						<input id="rua" type="text" name="endereco-bd" required="required">
+					</div>
+					
+					<div id="dois">
+						<h4>Número*</h4>
+						<input id="num" type="text" name="numero-bd" required="required">
+					</div>
+				</div>
+
+				<h4>Complemento</h4>
+				<input id="complemento" type="text" name="complemento-bd">
+
+				<div id="caixa-2">
+					<div id="tres">
+						<h4>Cidade*</h4>
+						<input id="cidade" type="text" name="cidade-bd" required="required">
+					</div>
+					
+					<div id="quatro">
+						<h4>Bairro*</h4>
+						<input id="bairro" type="text" name="bairro-bd" required="required">
+					</div>
+					
+					<div id="cinco">
+						<h4>Estado*</h4>
+						<input id="estado" type="text" name="estado-bd" required="required">
+					</div>
+				</div>
+
+				<div id="caixa-2">
+					<div id="seis">
+						<h4>CPF*</h4>
+						<input id="cpf" type="text" name="cpf-bd" required="required">
+					</div>
+
+					<div id="sete">
+						<h4>RG*</h4>
+						<input id="rg" type="text" name="rg-bd" required="required">
+					</div>
+				</div>
+
+				<div id="caixa-2">
+					<div id="oito">
+						<h4>email*</h4>
+						<input id="email" type="text" name="email-bd" required="required">
+					</div>
+
+					<div id="nove">
+						<h4>telefone*</h4>
+						<input id="telefone" type="text" name="telefone-bd" required="required">
+					</div>
+				</div>
+
+				<h5 id="titulo">*campos obrigatórios</h5>
+
+				<div id="caixa-2">
+					<input id="salvar" type="submit" name="dados_pessoa" value="SALVAR">
+				</div>
+
+				<h5 id="meu_nome">&copy; Luiz Eduardo de Lima</h5>
+			</form>
+		</div>
+	</div>
+
+	<!--Chamando o arquivo jquery-->
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+	<script type="text/javascript">
+		
+		var data = new Date();
+
+		var dia = data.getDate();
+		var mes = data.getMonth();
+		var ano4 = data.getFullYear();
+
+		var formatando_data = dia + '/' + (mes + 1) + '/' + ano4;
+
+		var elemento = $('#titulo');
+
+		elemento.html('<h3>' + 'Sistema Cad - ' + formatando_data + '</h3>');
+
+	</script>
+</body>
+</html>
