@@ -18,10 +18,10 @@ Site responsivo criado com Html, Css e PHP, contém conexão com banco de dados.
 *  ![parte 6](https://github.com/LuizEduardodeLima/cadastro-de-pessoas/blob/main/imgs-readme/tela-06.png)
 
 ### Link da página Login:
-<https://luizeduardodelima.github.io/cadastro-de-pessoas/>
+<https://luizeduardodelima.github.io/Cadastro-de-pessoas/>
 
 ### Link da página de Cadastro:
-<https://luizeduardodelima.github.io/cadastro-de-pessoas/cadastro.html>
+<https://luizeduardodelima.github.io/Cadastro-de-pessoas/cadastro.html>
 
 ### Link da página de Pesquisa:
-<https://luizeduardodelima.github.io/cadastro-de-pessoas/pesquisar.html>
+<https://luizeduardodelima.github.io/Cadastro-de-pessoas/pesquisar.html>
